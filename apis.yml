@@ -1,9 +1,24 @@
 aid: trace-neuroscience
 name: Trace Neuroscience
-description: 'Trace Neuroscience is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Trace Neuroscience, Inc. is a biotechnology company developing genetic medicines for
+  neurodegenerative diseases. Its lead investigational medicine, TRCN-1023, is designed to restore
+  the function of the UNC13A protein, which is disrupted in most people living with amyotrophic
+  lateral sclerosis (ALS). The company sponsors the FUNCtion ALS Phase 1/2 trial (NCT07674667)
+  evaluating TRCN-1023 delivered by intrathecal injection. Trace Neuroscience is backed by GV and
+  does not currently publish a public developer portal or APIs.'
 url: https://raw.githubusercontent.com/api-evangelist/trace-neuroscience/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.traceneuro.com/wp-content/uploads/2024/09/piano.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Neuroscience
+- ALS
+- Therapeutics
+- Clinical Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.traceneuro.com
+- type: PrivacyPolicy
+  url: https://www.traceneuro.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.traceneuro.com/terms-of-service/
+- type: DomainSecurity
+  url: security/trace-neuroscience-domain-security.yml
+- type: LLMsTxt
+  url: llms/trace-neuroscience-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
